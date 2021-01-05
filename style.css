@@ -1,0 +1,116 @@
+*
+{
+  font-family: arial;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #27275f;
+}
+a:hover{
+  text-decoration: underline;
+}
+.boxcentre{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  font-size: 0.87em;
+}
+.barrehaut{
+  text-align: right;
+  font-size: 0.81em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+}
+.item1{
+  display: inline-block;
+  margin: 0 10px;
+}
+.loupesearch{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #11ffee00;
+  opacity: 0.20;
+  background-clip: padding-box;
+  padding: 8px;
+  border-radius: 500px;
+  border: solid;
+  border-width: thin;
+}
+.loupesearch:hover{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #11ffee00;
+  opacity: 0.20;
+  background-clip: padding-box;
+  padding: 8px;
+  border-radius: 500px;
+  border: solid;
+  border-width: thin;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+}
+input[type=text]{
+  width: 520px;
+  border: none;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.button button{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #3c4043;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.TJ{
+  display: inline-block;
+  padding: 5px;
+  color: #1a0dab;
+  margin-top: 20px;
+  border: 1px solid #70757a;
+}
+.barrebas1{
+    background-color: #f2f2f2;
+    color: #70757a;
+    font-size: 0.93em;
+    padding: 0.9%;
+    border-top: 1px solid #e0e2e5;
+}
+.footer{
+   align-content: flex-end;
+   flex-wrap: wrap;
+}
+.barrebas2{
+    background-color: #f2f2f2;
+    font-size: 0.87em;
+    text-align: center;
+    background-clip: padding-box;
+    padding: 0.9%;
+    border-top: 1px solid #e0e2e5;
+}
+.item6{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.feuille{
+  display: inline-block;
+  height: 14px;
+}
